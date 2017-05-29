@@ -3,10 +3,10 @@
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <!--<script src="script.js"></script>-->
-    <script src="scripts/jsonSort.js"></script>
-    <script src="scripts/table.js"></script>
-    <script src="scripts/more.js"></script>
-    <script src="scripts/search.js"></script>
+    <script src="../scripts/jsonSort.js"></script>
+    <script src="../scripts/table.js"></script>
+    <script src="../scripts/more.js"></script>
+    <script src="../scripts/search.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
