@@ -7,6 +7,8 @@
     <script src="../scripts/table.js"></script>
     <script src="../scripts/more.js"></script>
     <script src="../scripts/search.js"></script>
+    <script src="../scripts/weight.js"></script>
+    
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
@@ -82,7 +84,10 @@
     mysqli_close($dbc);
  
 ?>
- 
+ <div class="calWeight">
+    <p><b>Vægt i Kg</b></p>
+    <p id="weight"></p>
+    </div>
     </div>
 
 </body>

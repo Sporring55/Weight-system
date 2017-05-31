@@ -77,6 +77,8 @@ function htmlTable(selector, data, columns) {
 	};
 	// emptyDOMChildren(sel);
 	sel.appendChild(tbe);	
+	ShowMore();
+	
 };
 
 

@@ -1,9 +1,7 @@
 
-
  function checkHidden(cols, rows){
         var arr = [];
-        var sum = 0;
-        
+        var sum = 0;       
         var se = document.getElementById("weight");
         var p = document.createElement("P");
         for(var i = 0; i < cols.length; i++){
@@ -22,7 +20,6 @@
            sum += num;
        }
        var result = sum.toString();
-       console.log(sum);
-       
-       
+        p.append(result);
+        $(se).html(p);  
     }

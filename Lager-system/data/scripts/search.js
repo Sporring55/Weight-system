@@ -7,7 +7,9 @@ $(document).ready(function(){
                 filter = input.value.toUpperCase();
                 tr = document.getElementsByTagName("tr");
                 td = document.getElementsByTagName("td");
-                console.log(filter);
+                var se = document.getElementById("weight");
+                var placeholder = document.createElement("P");
+                var txt = document.createTextNode("Ingen vægt");
             for(var i = 0; i < tr.length; i++){         
                 a = tr[i];
                 if(a.innerHTML.toUpperCase().indexOf(filter) > - 1 && !tr[i].id){
@@ -17,7 +19,13 @@ $(document).ready(function(){
                     tr[i].style.display = "none";
                 }
             }
+           if(filter !== ""){
             checkHidden(tr,td);
+           }
+           else {
+            placeholder.append(txt);
+            $(se).html(placeholder);
+           }
         }
         fSearch();
     })
